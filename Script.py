@@ -257,9 +257,12 @@ User - {}"""
     
 <blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote>
 
-15 - For one week subscription. 
-30 - For one month subscription. 
-499 - for 3 month subscription. 
+❏ 𝟶𝟷𝟻₹     ➠    𝟶𝟷 ᴡᴇᴇᴋꜱ
+❏ 𝟶70₹     ➠    𝟶𝟷 ᴍᴏɴᴛʜ
+❏ 100₹     ➠    𝟶𝟸 ᴍᴏɴᴛʜ
+❏ 130₹     ➠    𝟶𝟹 ᴍᴏɴᴛʜ
+❏ 199₹     ➠    𝟶𝟼 ᴍᴏɴᴛʜ
+❏ 350₹     ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
  <code> Sharmashivam@fam </code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
