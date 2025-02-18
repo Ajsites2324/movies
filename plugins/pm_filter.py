@@ -45,7 +45,7 @@ async def pm_search(client, message):
         await auto_filter(client, message)
     else:
         await message.reply_text("<b><i>ɪ ᴀᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ. ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ.</i></b>",
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/secretchamber1227')]]))
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/ajmoviegroup')]]))
         
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -137,7 +137,7 @@ async def refercall(bot, query):
     await bot.send_photo(
         chat_id=query.message.chat.id,
         photo="https://graph.org/file/1a2e64aee3d4d10edd930.jpg",
-        caption=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join, you will get 10 referral points and after 100 points you will get 1 month premium subscription.',
+        caption=f'Hey Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join, you will get 10 referral points and after 100 points you will get 1 month premium subscription.',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
     )
@@ -750,7 +750,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎗️ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ 🎗️', url=f'https://t.me/{temp.U_NAME}?start=file_{chat_id}_{file_id}')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        return await query.message.edit(text=f'<b>ᴛʜᴀɴᴋs ғᴏʀ ᴊᴏɪɴɪɴɢ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🔥😗\nɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ : {files.file_name[:20]}.. ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⚡\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Demonxcoder</b>',reply_markup=reply_markup)
+        return await query.message.edit(text=f'<b>ᴛʜᴀɴᴋs ғᴏʀ ᴊᴏɪɴɪɴɢ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🔥😗\nɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ : {files.file_name[:20]}.. ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⚡\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Me_Miss_You</b>',reply_markup=reply_markup)
 
     elif query.data == "give_trial":
         user_id = query.from_user.id
@@ -835,7 +835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        m=await query.message.reply_sticker("CAACAgUAAxkBAAENy6VnsEeGRonjoi1-Mxj2SPd1v5CplQACKBIAAjYJgVW3XYwMdt4_8zYE") 
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAIBbGe0g6jHNRaL5pteac-bpymTqLgKAAJHBwACjiOAVHCvjcUP_GAtHgQ") 
         await m.delete()
         await query.message.reply_photo(
             photo=(SUBSCRIPTION),
@@ -845,7 +845,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/Demonxcoder')
+            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/me_miss_you')
         ],[
             InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
@@ -998,11 +998,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @Demonxcoder \n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @Me_Miss_You \n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://t.me/demonxcoder')
+            InlineKeyboardButton('Repo', url='https://t.me/ajeet_bots')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -1031,7 +1031,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
        ],[
               InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='features'),
-              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/Demonxcoder'),
+              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/ajeet_bots'),
        ]]
        reply_markup = InlineKeyboardMarkup(buttons)
        await client.edit_message_media(
