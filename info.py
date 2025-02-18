@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '23615625'))
-API_HASH = environ.get('API_HASH', '6d3442904a75dd51ae064629248f3c9d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7266139769:AAGh4CqiDKpIGbWvSiyfBLEwrMFCqW5RABE')
+API_ID = int(environ.get('API_ID', '9328697'))
+API_HASH = environ.get('API_HASH', '9844b5bade2267c9a175a1dc72952e76')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7093899037').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Demonxcoder") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002304384234'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/secretchamber1227')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002497005966').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1923770971').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/aj_professor") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002360552818'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/ajmoviegroup')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002352964508').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shubhxm:shubhxm@shubhx.w05ub.mongodb.net/?retryWrites=true&w=majority&appName=shubhx")
-DATABASE_NAME = environ.get('DATABASE_NAME', "shubhx")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "LAUREN")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -35,22 +35,22 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/moviedownloadsandwatch')
+auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/AJEET_GOND')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Mrshubh_1227') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/AJEETXSUPPORT') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Demonxcoder")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/ME_MISS_YOU")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "eece7f240c5d3db81dac240b25d94ee28c1d75ec")
+SHORTENER_API = environ.get("SHORTENER_API", "160b0b94cc38d688c16e70a4d48f022245343391")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "eece7f240c5d3db81dac240b25d94ee28c1d75ec")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "160b0b94cc38d688c16e70a4d48f022245343391")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "eece7f240c5d3db81dac240b25d94ee28c1d75ec")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "160b0b94cc38d688c16e70a4d48f022245343391")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
