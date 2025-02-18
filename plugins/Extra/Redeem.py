@@ -44,8 +44,8 @@ Aᴍᴏᴜɴᴛ:</b> {num_codes}
 
         keyboard = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("♻️ Redeem Here ♻️", url="http://t.me/MoviesWDs_bot")],
-                [InlineKeyboardButton("❕ Any Query ❕", url="https://t.me/Demonxcoder")]
+                [InlineKeyboardButton("♻️ Redeem Here ♻️", url="http://t.me/GravityXrobot")],
+                [InlineKeyboardButton("❕ Any Query ❕", url="https://t.me/me_miss_you")]
             ]
         )
 
